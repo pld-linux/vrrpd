@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	http://www.off.net/~jme/%{name}/%{name}-%{version}.tgz
+# Source0-md5:	b66aa188e71b082d581ae84b2a380cad
 URL:		http://www.off.net/~jme/vrrpd/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
