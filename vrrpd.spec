@@ -1,5 +1,5 @@
 Summary:	vrrpd - an implementation of VRRPv2
-Summary(pl.UTF-8):   vrrpd - implementacja protokołu VRRPv2
+Summary(pl.UTF-8):	vrrpd - implementacja protokołu VRRPv2
 Name:		vrrpd
 Version:	0.4
 Release:	1
