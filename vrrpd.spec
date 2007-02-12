@@ -1,5 +1,5 @@
 Summary:	vrrpd - an implementation of VRRPv2
-Summary(pl):	vrrpd - implementacja protoko³u VRRPv2
+Summary(pl.UTF-8):   vrrpd - implementacja protokoÅ‚u VRRPv2
 Name:		vrrpd
 Version:	0.4
 Release:	1
@@ -16,10 +16,10 @@ run in userspace for Linux. In short, VRRP is a protocol which elects
 a master server on a LAN. If the master fails, a backup server takes
 over.
 
-%description -l pl
-%{name} to implementacja protoko³u VRRPv2, którego specyfikacja
-znajduje siê w RFC 2338. Uruchamiany jest w przestrzeni u¿ytkownika.
-W skrócie: protokó³ VRRP wybiera serwer nadrzêdny w sieci LAN. Je¿eli
+%description -l pl.UTF-8
+%{name} to implementacja protokoÅ‚u VRRPv2, ktÃ³rego specyfikacja
+znajduje siÄ™ w RFC 2338. Uruchamiany jest w przestrzeni uÅ¼ytkownika.
+W skrÃ³cie: protokÃ³Å‚ VRRP wybiera serwer nadrzÄ™dny w sieci LAN. JeÅ¼eli
 on zawiedzie, serwer pomocniczy przejmuje jego funkcje.
 
 %prep
