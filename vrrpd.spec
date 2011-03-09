@@ -2,7 +2,7 @@ Summary:	vrrpd - an implementation of VRRPv2
 Summary(pl.UTF-8):	vrrpd - implementacja protokołu VRRPv2
 Name:		vrrpd
 Version:	0.4
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/System
 Source0:	http://www.off.net/~jme/%{name}/%{name}-%{version}.tgz
@@ -28,7 +28,10 @@ on zawiedzie, serwer pomocniczy przejmuje jego funkcje.
 %build
 %{__make} clean
 %{__make} \
-	CPPFLAGS="%{rpmcflags}"
+	CC="%{__cc}" \
+	CPPFLAGS="%{rpmcppflags}" \
+	DBG_OPT="%{rpmcflags}" \
+	LINKLIB="%{rpmldflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
