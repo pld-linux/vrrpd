@@ -1,13 +1,13 @@
 Summary:	vrrpd - an implementation of VRRPv2
 Summary(pl.UTF-8):	vrrpd - implementacja protokołu VRRPv2
 Name:		vrrpd
-Version:	0.4
-Release:	2
+Version:	1.0
+Release:	1
 License:	GPL
 Group:		Applications/System
-Source0:	http://www.off.net/~jme/%{name}/%{name}-%{version}.tgz
-# Source0-md5:	b66aa188e71b082d581ae84b2a380cad
-URL:		http://www.off.net/~jme/vrrpd/
+Source0:	http://downloads.sourceforge.net/vrrpd/%{name}-%{version}.tar.gz
+# Source0-md5:	6d5066ea1a6ced817376ca0f54765447
+URL:		http://sourceforge.net/apps/trac/vrrpd/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -23,7 +23,7 @@ W skrócie: protokół VRRP wybiera serwer nadrzędny w sieci LAN. Jeżeli
 on zawiedzie, serwer pomocniczy przejmuje jego funkcje.
 
 %prep
-%setup -q -n %{name}
+%setup -q
 
 %build
 %{__make} clean
