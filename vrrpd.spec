@@ -2,7 +2,7 @@ Summary:	vrrpd - an implementation of VRRPv2
 Summary(pl.UTF-8):	vrrpd - implementacja protokołu VRRPv2
 Name:		vrrpd
 Version:	1.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/System
 Source0:	http://downloads.sourceforge.net/vrrpd/%{name}-%{version}.tar.gz
